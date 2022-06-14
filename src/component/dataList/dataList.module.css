@@ -1,0 +1,38 @@
+.card {
+	width: 100%;
+	display: flex;
+}
+
+.dataList {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.data_card {
+	width: 30rem;
+	padding: 1rem 0;
+	border: 1px solid red;
+	margin-top: 1rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	background-color: #fff;
+}
+
+.data_card:hover {
+	box-shadow: 5px 5px 15px 5px #000;
+}
+
+.data_card:hover {
+	transform: scale3d(1.2, 1.2, 0.1);
+}
+
+.data_card > img {
+	width: 100%;
+}
+
+.data_card > h1 {
+	font-size: 1rem;
+}

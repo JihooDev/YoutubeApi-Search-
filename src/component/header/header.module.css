@@ -1,0 +1,55 @@
+:root {
+	--main-font: 'Noto Sans KR', sans-serif;
+	--sub-font: 'Roboto Condensed', sans-serif;
+	--red: #ff0000;
+	--black: #000103;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+}
+
+.left > img {
+	width: 5rem;
+}
+
+.logo {
+	font-size: 3rem;
+	font-family: var(--sub-font);
+	margin-left: 1rem;
+}
+
+.search_form {
+	display: flex;
+	align-items: center;
+	border: 1px solid red;
+	height: 100%;
+	border-radius: 1rem;
+	padding: 1rem;
+}
+
+.search_form > input {
+	width: 25rem;
+	height: 3rem;
+	font-size: 2rem;
+	font-family: var(--main-font);
+	border: none;
+	outline: none;
+}
+
+.search_form > button {
+	height: 3rem;
+	background: transparent;
+	outline: none;
+	border: none;
+	font-weight: bold;
+}
